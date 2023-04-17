@@ -3,7 +3,8 @@
 
 classDiagram
   direction RL
-  class Produto {
+
+  class Produto{
     -id : int
     -nome : String
     -descricao : String
@@ -30,10 +31,32 @@ classDiagram
     -desc_prod : String
     -qtde : int
   }
+  class Pagamento{
+    -id : int
+    -id_cli : int
+    -id_vend : int
+    -status : Bool
+    -data : date
+    -valor_total : Float
+    -tipo : String
+  }
+  class Venda{
+    -id : int
+    -id_cli : int
+    -data_time : date
+    -tipo_prod : String
+    -preco_prod : Float
+    -qtde_prod : int
+    -valor_total : Float
+  }
 
   Produto "1..n" -- "1..n" Usuario : vende
   Produto "1..n" -- "0..n" Cliente : compra
   Produto "1..n" -- "1..n" Estoque : tem
+  Cliente "1..1" -- "1..1" Pagamento : realiza
+  Cliente "1..1" -- "1..n" Venda : possiu
+  Pagamento "1..1" -- "1..1" Venda : gera
+  Produto "1..n" -- "1..n" Venda : tem
 
 
 ```
