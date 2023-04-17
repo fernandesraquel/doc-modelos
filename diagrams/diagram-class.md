@@ -2,6 +2,7 @@
 ```mermaid
 
 classDiagram
+  direction RL
   class Produto {
     -id : int
     -nome : String
