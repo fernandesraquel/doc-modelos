@@ -49,6 +49,11 @@ classDiagram
     -qtde_prod : int
     -valor_total : Float
   }
+  class Relatorio{
+    -id : int
+    -desc_relat : String
+    -id_vend : int
+  }
 
   Produto "1..n" -- "1..n" Usuario : vende
   Produto "1..n" -- "0..n" Cliente : compra
@@ -57,6 +62,7 @@ classDiagram
   Cliente "1..1" -- "1..n" Venda : possiu
   Pagamento "1..1" -- "1..1" Venda : gera
   Produto "1..n" -- "1..n" Venda : tem
+  Venda "1..n" -- "1..n" Relatorio : possui
 
 
 ```
