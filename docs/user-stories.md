@@ -24,39 +24,39 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Descrição</th>
+      <td scope="row"><b>Descrição</b></td>
       <td colspan="3">kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</td>
     </tr>
     <tr>
-      <th scope="row">Requisistos Envolvidos</th>
+      <td scope="row"><b>Requisistos Envolvidos<b/></td>
       <td colspan="3">RF016, RF017, RF018, RF019, RF020</td>
     </tr>
     <tr>
-      <th scope="row">Prioridade</th>
+      <td scope="row"><b>Prioridade</b></td>
       <td colspan="3">Essencial</td>
     </tr>
     <tr>
-      <th scope="row">Estimativa</th>
+      <td scope="row"><b>Estimativa<b/></td>
       <td>5h</td>
-      <th>Tempo Gasto (real):</th>
+      <td><b>Tempo Gasto (real):<b/></td>
       <td>5h</td>
     </tr>
     <tr>
-      <th scope="row">Analista</th>
+      <td scope="row"><b>Analista<b/></td>
       <td colspan="3">Raquel (responsável por especificar/detalhar o US).</td>
     </tr>
     <tr>
-      <th scope="row">Desenvolvedor</th>
+      <td scope="row"><b>Desenvolvedor<b/></td>
       <td colspan="3">Raquel (responsável por implementar e realizar testes de unidade e testes de integração).
       </td>
     </tr>
     <tr>
-      <th scope="row">Revisor</th>
+      <td scope="row"><b>Revisor<b/></td>
       <td colspan="3">Maria (responsável por avaliar a implementação e executar os testes de unidade e testes de integração).
       </td>
     </tr>
     <tr>
-      <th scope="row">Testador</th>
+      <td scope="row"><b>Testador<b/></td>
       <td colspan="3">Raquel (responsável por executar os Testes de Aceitação e fazer o relatório de testes).
       </td>
     </tr>
