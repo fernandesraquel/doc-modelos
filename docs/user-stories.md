@@ -17,9 +17,9 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 
 
 <table>
-  <thead style="text-align: center">
+  <thead>
     <tr>
-      <th colspan="4" scope="row" style="font-size:28px">User Story US02 - Manter Produto</th>
+      <th colspan="4" scope="row">User Story US02 - Manter Produto</th>
     </tr>
   </thead>
   <tbody>
