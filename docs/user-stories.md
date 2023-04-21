@@ -26,21 +26,6 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
       <td colspan="3">Como gerente de uma loja de materiais de construção,
         quero ser capaz de manter uma lista atualizada de produtos,
         para que eu possa gerenciar meu estoque de maneira eficiente e atender às necessidades dos clientes.
-<br>
-Critérios de aceitação:
-<br>
-- Adicionar novos produtos à lista, indicando o nome, descrição, preço e quantidade em estoque;
-<br>
-- Atualizar a informação de um produto existente na lista, como preço e quantidade em estoque;
-<br>
-- Remover um produto existente da lista, caso ele seja descontinuado ou não esteja mais disponível;
-<br>
-- Visualizar a lista de produtos atualizada em tempo real;
-<br>
-- Identificar quais produtos estão fora de estoque e precisam ser ressupridos;
-<br>
-- Gerar relatórios sobre o desempenho de vendas de cada produto, com base em dados como vendas totais e lucro.
-
 </td>
     </tr>
     <tr>
