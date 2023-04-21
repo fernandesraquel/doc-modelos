@@ -16,7 +16,7 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 | 11/06/2023 | 0.0.2  |                Detalhamento do User Story US01                 | Renata Karla Araújo dos Santos    |
 
 
-<table class="table table-bordered">
+<table>
   <thead>
     <tr>
       <th colspan="4">User Story US02 - Manter Produto</th>
