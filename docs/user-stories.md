@@ -16,8 +16,8 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 | 11/06/2023 | 0.0.2  |                Detalhamento do User Story US01                 | Renata Karla Araújo dos Santos    |
 
 
-<table text-align: left;>
-  <thead>
+<table>
+  <thead style="text-align: center">
     <tr>
       <th colspan="4" scope="row" style="font-size:28px">User Story US02 - Manter Produto</th>
     </tr>
@@ -38,7 +38,7 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     <tr>
       <th scope="row">Estimativa</th>
       <td>5h</td>
-      <td>Tempo Gasto (real):</td>
+      <th>Tempo Gasto (real):</th>
       <td>5h</td>
     </tr>
     <tr>
