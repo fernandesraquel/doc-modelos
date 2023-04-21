@@ -38,7 +38,7 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     <tr>
       <th scope="row">Estimativa</th>
       <td>5h</td>
-      <td>Tempo Gasto (real):</td>
+      <td style="font-weight:100">Tempo Gasto (real):</td>
       <td>5h</td>
     </tr>
     <tr>
