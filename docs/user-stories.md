@@ -66,7 +66,7 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     </tr>
     <tr>
       <td scope="row"><b>Código</b></td>
-      <td colspan="3"><b>Descrição<b/></td>
+      <th colspan="3"><b>Descrição<b/></th>
     </tr>
   </tbody>
 </table>
