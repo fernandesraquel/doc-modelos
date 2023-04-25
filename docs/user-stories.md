@@ -65,8 +65,8 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
       <th colspan="4" scope="row">Testes de Aceitação (TA)</th>
     </tr>
     <tr>
-      <td scope="row"><b>TA01.01</b></td>
-      <td colspan="3">Como</td>
+      <td scope="row"><b>Código</b></td>
+      <td colspan="3"><b>Descrição<b/></td>
     </tr>
   </tbody>
 </table>
