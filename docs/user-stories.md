@@ -61,5 +61,8 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
       <td colspan="3">Renata (responsável por executar os Testes de Aceitação e fazer o relatório de testes).
       </td>
     </tr>
+    <tr>
+      <th colspan="4" scope="row">Testes de Aceitação (TA)</th>
+    </tr>
   </tbody>
 </table>
