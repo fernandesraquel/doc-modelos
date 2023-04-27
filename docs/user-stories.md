@@ -48,18 +48,26 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     </tr>
     <tr>
       <td scope="row"><b>Desenvolvedor<b/></td>
-      <td colspan="3">Raquel (responsável por implementar e realizar testes de unidade e testes de integração).
-      </td>
+      <td colspan="3">Raquel (responsável por implementar e realizar testes de unidade e testes de integração).</td>
     </tr>
     <tr>
       <td scope="row"><b>Revisor<b/></td>
-      <td colspan="3">Annielly (responsável por avaliar a implementação e executar os testes de unidade e testes de integração).
-      </td>
+      <td colspan="3">Annielly (responsável por avaliar a implementação e executar os testes de unidade e testes de integração).</td>
     </tr>
     <tr>
       <td scope="row"><b>Testador<b/></td>
-      <td colspan="3">Renata (responsável por executar os Testes de Aceitação e fazer o relatório de testes).
-      </td>
+      <td colspan="3">Renata (responsável por executar os Testes de Aceitação e fazer o relatório de testes).</td>
+    </tr>
+    <tr>
+      <th colspan="4" scope="row">Testes de Aceitação (TA)</th>
+    </tr>
+    <tr>
+      <td scope="row"><b>Código</b></td>
+      <th colspan="3">Descrição</th>
+    </tr>
+    <tr>
+      <td scope="row"><b>TA01.01<b/></td>
+      <td colspan="3">Dado que estou logado como gerente, quando eu acessar a página de adicionar produto o sistema deve ser capaz de preencher todos os campos obrigatórios e ao clicar em "Salvar", o produto deve ser adicionado com sucesso. O produto deve ser exibido na lista de produtos.</td>
     </tr>
   </tbody>
 </table>
