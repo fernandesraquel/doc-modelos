@@ -15,10 +15,8 @@
         USUARIO ||--|| FUNCIONARIO : possui
         USUARIO {
             cod_usuario integer
-            nome varchar
             email varchar
             senha varchar
-            funcao varchar
         }
         PRODUTO {
              cod_produto integer
