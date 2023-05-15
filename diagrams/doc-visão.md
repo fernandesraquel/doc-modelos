@@ -73,6 +73,94 @@ O projeto possui as seguintes restrições e limitações:
 
 ## 10. Modelo Conceitual
 O modelo conceitual do sistema de gestão para lojas de materiais de construção incluirá as seguintes entidades:
+```mermaid
+    erDiagram
+        USUARIO ||--|| FUNCIONARIO : possui
+        FUNCIONARIO || --|{ CLIENTE : atendido
+        FUNCIONARIO ||--|{ VENDA : realiza
+        PRODUTO }|--|| CATEGORIA-PRODUTO : pertence
+        PRODUTO }|--|{ VENDA : inclui
+        PRODUTO ||--|| FORNECEDOR : possui
+        PRODUTO }|--|| ESTOQUE : gerencia
+        CLIENTE ||--|{ VENDA : realizada
+        ITEM-VENDA }|--|| VENDA : possui
+        ITEM-VENDA }|--|| PRODUTO : possui
+        PAGAMENTO ||--|| VENDA  : associa
+        PAGAMENTO ||--|| CLIENTE : realiza
+        USUARIO {
+            cod_usuario integer
+            email varchar
+            senha varchar
+            funcao varchar
+        }
+        PRODUTO {
+             cod_produto integer
+             nome varchar
+             preco decimal
+             qtde_estoque integer
+             cod_fornecedor integer
+        }
+        CLIENTE {
+            cod_cliente integer
+            nome varchar
+            endereco varchar
+            telefone varchar
+            email varchar
+       }
+        FORNECEDOR {
+            cod_fornecedor integer
+            nome varchar
+            endereco varchar
+            telefone varchar
+            email varchar
+        }   
+         VENDA {
+            cod_venda integer
+            data_hora timestamp
+            cod_cliente integer
+            cod_funcionario integer
+        }
+        ITEM-VENDA {
+            cod_item_venda integer
+            quantidade integer
+            preco_unitario decimal
+            cod_venda integer
+            cod_produto integer
+        }
+         FUNCIONARIO {
+            cod_funcionario integer
+            nome varchar
+            cargo varchar
+            identificacao varchar
+            endereco varchar
+            telefone varchar
+            email varchar
+            cod_usuario integer
+        }
+        ESTOQUE {
+            cod_estoque integer
+            cod_produto integer
+            quantidade integer
+            data_hora timestamp
+            cod_item_venda
+        }
+        CATEGORIA-PRODUTO {
+            cod_categoria integer
+            nome varchar
+            descricao text
+            cod_produto integer
+        }
+        PAGAMENTO {
+            cod_pagamento integer
+            cod_venda integer
+            cod_cliente integer
+            valor decimal
+            data_hora timestamp
+            forma_pagamento varchar
+        } 
+      
+```
+Essas entidades terão relacionamentos e atributos adequados para atender aos requisitos funcionais do sistema.
 
 ## 11. Considerações Finais
 O sistema de gestão para lojas de materiais de construção visa proporcionar uma solução eficiente e abrangente para a administração de lojas do setor. Ao permitir o cadastro de produtos, controlar o estoque, registrar vendas, gerar relatórios e emitir notas fiscais, o sistema oferecerá suporte às operações diárias das lojas. Utilizando o framework Django e Python, espera-se alcançar uma implementação robusta e escalável. A gestão de riscos é um fator essencial para garantir a segurança e o desempenho do sistema, e a integração com outros sistemas existentes deve ser considerada durante o desenvolvimento. Com essas diretrizes em mente, o sistema de gestão ajudará as lojas de materiais de construção a otimizar suas operações e aprimorar a experiência do cliente.
