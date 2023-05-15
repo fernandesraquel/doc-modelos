@@ -7,7 +7,7 @@ O sistema de gestão será uma aplicação web que permitirá o gerenciamento ef
 
 |Data|	Versão|	Descrição|	Autor(es)|
 |---|---|---|---|
-08/04/2021|	1.0.0|	Documento| Inicial|	Raquel Lima Fernandes|
+|08/04/2021|	1.0.0|	Documento Inicial|	Raquel Lima Fernandes|
 ## 4. Matriz de Competências
 O desenvolvimento deste sistema requer as seguintes competências técnicas:
 |Competência| 	Descrição|
