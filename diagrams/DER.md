@@ -2,21 +2,23 @@
 
 ```mermaid
     erDiagram
-        PRODUTO ||--|| FORNECEDOR : possui
-        PRODUTO }|--|| VENDA : contem
-        PRODUTO ||--|| CATEGORIA : possui
-        PRODUTO ||--|{ ESTOQUE : possui
-        CLIENTE }|--|| VENDA : possui
-        FUNCIONARIO }|--|| VENDA : realiza
-        FUNCIONARIO }|--|| COMPRA : realiza
-        FORNECEDOR }|--|| COMPRA : realiza
-        CLIENTE }|--|| PAGAMENTO : realiza
-        VENDA }|--|| PAGAMENTO : tem
         USUARIO ||--|| FUNCIONARIO : possui
+        FUNCIONARIO || --|{ CLIENTE : atendido
+        FUNCIONARIO ||--|{ VENDA : realiza
+        PRODUTO }|--|| CATEGORIA-PRODUTO : pertence
+        PRODUTO }|--|{ VENDA : inclui
+        PRODUTO ||--|| FORNECEDOR : possui
+        PRODUTO }|--|| ESTOQUE : gerencia
+        CLIENTE ||--|{ VENDA : realizada
+        ITEM-VENDA }|--|| VENDA : possui
+        ITEM-VENDA }|--|| PRODUTO : possui
+        PAGAMENTO ||--|| VENDA  : associa
+        PAGAMENTO ||--|| CLIENTE : realiza
         USUARIO {
             cod_usuario integer
             email varchar
             senha varchar
+            funcao varchar
         }
         PRODUTO {
              cod_produto integer
@@ -46,6 +48,11 @@
             cod_cliente integer
             cod_funcionario integer
         }
+        ITEM-VENDA {
+            cod_item_venda integer
+            quantidade integer
+            preco_unitario decimal
+        }
          FUNCIONARIO {
             cod_funcionario integer
             nome varchar
@@ -62,13 +69,7 @@
             quantidade integer
             data_hora timestamp
         }
-        COMPRA {
-            cod_compra integer
-            data_hora timestamp
-            cod_fornecedor integer
-            cod_funcionario integer
-        }
-        CATEGORIA {
+        CATEGORIA-PRODUTO {
             cod_categoria integer
             nome varchar
             descricao text
