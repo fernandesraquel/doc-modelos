@@ -74,9 +74,6 @@ O projeto possui as seguintes restrições e limitações:
 ## 10. Modelo Conceitual
 O modelo conceitual do sistema de gestão para lojas de materiais de construção incluirá as seguintes entidades:
 
-# Modelo Conceitual
-O modelo conceitual do sistema de gestão para lojas de materiais de construção incluirá as seguintes entidades:
-
 ```mermaid
     erDiagram
         USUARIO ||--|| FUNCIONARIO : possui
