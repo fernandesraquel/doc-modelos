@@ -71,7 +71,7 @@ O projeto possui as seguintes restrições e limitações:
 |20/06/23|	Falha no processo de backup dos dados|	Alta|	TI|	Em andamento|	Revisar e aprimorar o processo de backup, realizar testes regulares de restauração e implementar mecanismos de monitoramento para garantir a eficácia do backup.|
 |30/06/23|	Conflitos de agenda entre os membros da equipe|	Baixa|	Gerente|	Resolvido|	Implementar um sistema de gerenciamento de calendário compartilhado e estabelecer políticas de comunicação e coordenação entre a equipe.|
 
-## 10. Modelo Conceitual
+## 10. Modelo Conceitual - DER
 O modelo conceitual do sistema de gestão para lojas de materiais de construção incluirá as seguintes entidades:
 
 ```mermaid
