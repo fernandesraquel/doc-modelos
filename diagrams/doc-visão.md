@@ -73,6 +73,10 @@ O projeto possui as seguintes restrições e limitações:
 
 ## 10. Modelo Conceitual
 O modelo conceitual do sistema de gestão para lojas de materiais de construção incluirá as seguintes entidades:
+
+# Modelo Conceitual
+O modelo conceitual do sistema de gestão para lojas de materiais de construção incluirá as seguintes entidades:
+
 ```mermaid
     erDiagram
         USUARIO ||--|| FUNCIONARIO : possui
@@ -99,6 +103,7 @@ O modelo conceitual do sistema de gestão para lojas de materiais de construçã
              preco decimal
              qtde_estoque integer
              cod_fornecedor integer
+
         }
         CLIENTE {
             cod_cliente integer
@@ -142,13 +147,11 @@ O modelo conceitual do sistema de gestão para lojas de materiais de construçã
             cod_produto integer
             quantidade integer
             data_hora timestamp
-            cod_item_venda
         }
         CATEGORIA-PRODUTO {
             cod_categoria integer
             nome varchar
             descricao text
-            cod_produto integer
         }
         PAGAMENTO {
             cod_pagamento integer
